@@ -14,5 +14,4 @@ RDEPENDS_${PN} = "\
     hostapd \
     bluez5 \
     packagegroup-tools-bluetooth \
-    brcm-patchram-plus \
 "
