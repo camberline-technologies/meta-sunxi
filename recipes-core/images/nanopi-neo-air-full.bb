@@ -3,7 +3,7 @@ LICENSE = "MIT"
 
 include nanopi-neo-air-core.bb
 
-IMAGE_INSTALL_append += "packagegroup-base"
+#IMAGE_INSTALL_append += "packagegroup-base"
 IMAGE_INSTALL_append += "packagegroup-system"
 IMAGE_INSTALL_append += "packagegroup-communication"
 IMAGE_INSTALL_append += "openssh"
