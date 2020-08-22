@@ -10,5 +10,4 @@ RDEPENDS_${PN} = "\
     dhcpcd \
     hostapd \
     bluez5 \
-    packagegroup-tools-bluetooth \
 "
