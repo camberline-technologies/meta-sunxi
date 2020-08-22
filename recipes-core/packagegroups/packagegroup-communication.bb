@@ -6,10 +6,7 @@ inherit packagegroup
 RDEPENDS_${PN} = "\
     linux-firmware \
     iw \
-    wireless-tools \ 
     wpa-supplicant \
-    wpa-supplicant-cli \
-    wpa-supplicant-passphrase \
     dhcpcd \
     hostapd \
     bluez5 \
