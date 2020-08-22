@@ -7,11 +7,12 @@ LIC_FILES_CHKSUM = "file://Licenses/gpl-2.0.txt;md5=b234ee4d69f5fce4486a80fdaf4a
 
 # No patches for other machines yet
 
-COMPATIBLE_MACHINE = "(sun4i|sun5i|sun7i)"
+COMPATIBLE_MACHINE = "(sun4i|sun5i|sun7i|nanopi-neo-air)"
 
 DEFAULT_PREFERENCE_sun4i="1"
 DEFAULT_PREFERENCE_sun5i="1"
 DEFAULT_PREFERENCE_sun7i="1"
+DEFAULT_PREFERENCE_nanopi-neo-air="1"
 
 # Sunxi U-Boot uses different names for some boards
 UBOOT_MACHINE_olinuxino-a20 = "A20-OLinuXino-Micro_config"
