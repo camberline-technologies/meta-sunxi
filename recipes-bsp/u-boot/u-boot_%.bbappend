@@ -1,5 +1,7 @@
 DESCRIPTION="Upstream's U-boot configured for sunxi devices"
 
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+
 require recipes-bsp/u-boot/u-boot.inc
 
 DEPENDS += " bc-native dtc-native swig-native python3-native flex-native bison-native "
